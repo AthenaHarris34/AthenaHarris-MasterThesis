@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'ETD.blg'
+[183] biber:340> INFO - === Wed Aug 12, 2026, 11:17:26
+[209] Biber.pm:418> INFO - Reading 'ETD.bcf'
+[362] Biber.pm:972> INFO - Found 7 citekeys in bib section 0
+[386] Biber.pm:4383> INFO - Processing section 0
+[409] Biber.pm:4574> INFO - Looking for bibtex file 'Biblio/allcites.bib' for section 0
+[411] bibtex.pm:1713> INFO - LaTeX decoding ...
+[429] bibtex.pm:1518> INFO - Found BibTeX data source 'Biblio/allcites.bib'
+[608] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[609] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[609] Biber.pm:4203> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[610] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[631] bbl.pm:654> INFO - Writing 'ETD.bbl' with encoding 'UTF-8'
+[642] bbl.pm:757> INFO - Output to ETD.bbl

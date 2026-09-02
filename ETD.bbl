@@ -1,0 +1,313 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{Einstein:1933gu}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+           family={Einstein},
+           familyi={E\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{bibnamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{authorbibnamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{authornamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{authorfullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annalen der Physik}
+      \field{number}{10}
+      \field{title}{{Zur Elektrodynamik bewegter Körper}. ({German}) [{On} the electrodynamics of moving bodies]}
+      \field{volume}{322}
+      \field{year}{1905}
+      \field{pages}{891\bibrangedash 921}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1002/andp.19053221004
+      \endverb
+    \endentry
+    \entry{Lit96}{book}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=ae444510770bb34485154c575c6b0c93}{%
+           family={Littell},
+           familyi={L\bibinitperiod},
+           given={Ramon\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f51043f4657273965694d634cf7af13}{%
+           family={Milliken},
+           familyi={M\bibinitperiod},
+           given={George\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=811ca7afe925492048849d1e89ce68d7}{%
+           family={Stroup},
+           familyi={S\bibinitperiod},
+           given={Walter\bibnamedelima W.},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c833749cc152e2ba6591b68b3e3f0a5b}{%
+           family={Wolfinger},
+           familyi={W\bibinitperiod},
+           given={Russell\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cary, NC}%
+      }
+      \list{publisher}{1}{%
+        {SAS Institute, Inc.}%
+      }
+      \strng{namehash}{0364057fd26a9bfd453e006374866a37}
+      \strng{fullhash}{19c86fd7fbcac5c44cc49588c5de5803}
+      \strng{bibnamehash}{19c86fd7fbcac5c44cc49588c5de5803}
+      \strng{authorbibnamehash}{19c86fd7fbcac5c44cc49588c5de5803}
+      \strng{authornamehash}{0364057fd26a9bfd453e006374866a37}
+      \strng{authorfullhash}{19c86fd7fbcac5c44cc49588c5de5803}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{SAS} System for Mixed Models}
+      \field{year}{1996}
+    \endentry
+    \entry{Met78}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=296b45ce1995399650391e9bc8b09c22}{%
+           family={Metz},
+           familyi={M\bibinitperiod},
+           given={Charles\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{296b45ce1995399650391e9bc8b09c22}
+      \strng{fullhash}{296b45ce1995399650391e9bc8b09c22}
+      \strng{bibnamehash}{296b45ce1995399650391e9bc8b09c22}
+      \strng{authorbibnamehash}{296b45ce1995399650391e9bc8b09c22}
+      \strng{authornamehash}{296b45ce1995399650391e9bc8b09c22}
+      \strng{authorfullhash}{296b45ce1995399650391e9bc8b09c22}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{S}eminars in {N}uclear {M}edicine}
+      \field{title}{Basic principles of {ROC} analysis}
+      \field{volume}{8}
+      \field{year}{1978}
+      \field{pages}{283\bibrangedash 298}
+      \range{pages}{16}
+    \endentry
+    \entry{Met78b}{article}{}
+      \name{author}{5}{ul=2}{%
+        {{un=0,uniquepart=base,hash=296b45ce1995399650391e9bc8b09c22}{%
+           family={Metz},
+           familyi={M\bibinitperiod},
+           given={Charles\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+           family={Einstein},
+           familyi={E\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=160513a28cba42e0c61ae29a13942a2e}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Paul\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00a8bb02d53798f3735445cecfaf2b55}{%
+           family={Benedict},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dcb4dc7bf292b0957ae94acc0e94b3cf}{%
+           family={Rice},
+           familyi={R\bibinitperiod},
+           given={Chaz},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fadcf1e6536e5d7bb8aaedbfe4d4f529}
+      \strng{fullhash}{7d2e2937c9e710169949a8d8227f7670}
+      \strng{bibnamehash}{7d2e2937c9e710169949a8d8227f7670}
+      \strng{authorbibnamehash}{7d2e2937c9e710169949a8d8227f7670}
+      \strng{authornamehash}{fadcf1e6536e5d7bb8aaedbfe4d4f529}
+      \strng{authorfullhash}{7d2e2937c9e710169949a8d8227f7670}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{B}ibliographic {S}tudies}
+      \field{title}{Principles of Potentially Redundant Citations}
+      \field{volume}{34}
+      \field{year}{1978}
+      \field{pages}{56\bibrangedash 78}
+      \range{pages}{23}
+    \endentry
+    \entry{Met78c}{article}{}
+      \name{author}{6}{ul=2}{%
+        {{un=0,uniquepart=base,hash=296b45ce1995399650391e9bc8b09c22}{%
+           family={Metz},
+           familyi={M\bibinitperiod},
+           given={Charles\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce7dee0ec3d5fd0d8d36a6f15d5c4485}{%
+           family={Hamlin},
+           familyi={H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=160513a28cba42e0c61ae29a13942a2e}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Paul\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7560ae3d8fa698831b9334509083a854}{%
+           family={Boss},
+           familyi={B\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00a8bb02d53798f3735445cecfaf2b55}{%
+           family={Benedict},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1493ede578b4f9b386bd19cfcf01875}{%
+           family={Redfield},
+           familyi={R\bibinitperiod},
+           given={C.\bibnamedelimi R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b009fab28129b9bab41590fb5f7147fa}
+      \strng{fullhash}{ea582e829178e86b93e097379d1d38f6}
+      \strng{bibnamehash}{ea582e829178e86b93e097379d1d38f6}
+      \strng{authorbibnamehash}{ea582e829178e86b93e097379d1d38f6}
+      \strng{authornamehash}{b009fab28129b9bab41590fb5f7147fa}
+      \strng{authorfullhash}{ea582e829178e86b93e097379d1d38f6}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{B}ibliographic {S}tudies}
+      \field{title}{A Meta-analysis of Redundant Citations}
+      \field{volume}{34}
+      \field{year}{1978}
+      \field{pages}{79\bibrangedash 84}
+      \range{pages}{6}
+    \endentry
+    \entry{Tho98w}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5cab800c79b0a50fe42fa7da65ebc4ff}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Len},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAS Institute, Inc.}%
+      }
+      \strng{namehash}{5cab800c79b0a50fe42fa7da65ebc4ff}
+      \strng{fullhash}{5cab800c79b0a50fe42fa7da65ebc4ff}
+      \strng{bibnamehash}{5cab800c79b0a50fe42fa7da65ebc4ff}
+      \strng{authorbibnamehash}{5cab800c79b0a50fe42fa7da65ebc4ff}
+      \strng{authornamehash}{5cab800c79b0a50fe42fa7da65ebc4ff}
+      \strng{authorfullhash}{5cab800c79b0a50fe42fa7da65ebc4ff}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Statistical power analysis software}
+      \field{year}{1998}
+      \verb{urlraw}
+      \verb http://www.forestry.ubc.ca/conservation/power/
+      \endverb
+      \verb{url}
+      \verb http://www.forestry.ubc.ca/conservation/power/
+      \endverb
+    \endentry
+    \entry{Wel03}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1156f280222fff0a68b137c9e6e7062c}{%
+           family={Wellek},
+           familyi={W\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Chapman \& Hall/CRC Press}%
+      }
+      \strng{namehash}{1156f280222fff0a68b137c9e6e7062c}
+      \strng{fullhash}{1156f280222fff0a68b137c9e6e7062c}
+      \strng{bibnamehash}{1156f280222fff0a68b137c9e6e7062c}
+      \strng{authorbibnamehash}{1156f280222fff0a68b137c9e6e7062c}
+      \strng{authornamehash}{1156f280222fff0a68b137c9e6e7062c}
+      \strng{authorfullhash}{1156f280222fff0a68b137c9e6e7062c}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Testing Statistical Hypotheses of Equivalence}
+      \field{year}{2003}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

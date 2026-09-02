@@ -1,0 +1,161 @@
+% !BIB program = biber
+\documentclass[12pt,english,letterpaper]{kuthesis}
+\usepackage{times}
+\usepackage{amsmath}
+\usepackage{geometry}
+\geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\usepackage{color}
+\usepackage{babel}
+\usepackage{csquotes}
+\usepackage{url}
+\usepackage{subfig}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{esint}
+\usepackage{amssymb}
+\graphicspath{ {./images/} }
+\usepackage{xcolor}
+\usepackage{slashed}
+\usepackage[natbib=true, backend=biber, style=apa,]{biblatex}
+\addbibresource{Biblio/allcites.bib}
+\usepackage{enumitem}
+\usepackage{makecell}
+\usepackage{enumitem}
+\usepackage{appendix}
+\usepackage[acronym]{glossaries}
+\setlistdepth{20}
+\renewlist{itemize}{itemize}{20}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\doublespacing
+\usepackage[unicode=true,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=true]
+ {hyperref}
+\hypersetup{pdftitle={University of Kansas Thesis Template},
+ pdfauthor={Anonymous},
+ pdfsubject={A Thesis},
+ urlcolor={black},citecolor={black},allcolors={black}}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+
+\providecommand{\LyX}{\texorpdfstring%
+  {L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+  {LyX}}
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+
+%used to align decimals in tables according to APA style
+\usepackage{dcolumn}
+\usepackage{booktabs}
+
+\author{Athena Harris}
+\title{The Title is Not Dog Treats}
+\date{2026}
+
+\priorcreds
+{Bachelors of Science in Computer Science, Kansas University, 2024}
+{Bachelors of Science in Mathematics, Kansas University, 2024}
+
+% Previous degree entries can be removed or added as needed
+% It is also acceptable to delete \priorcreds if the title page becomes too crowded
+
+\dept{Your Department}
+\degreetitle{Your Degree}
+
+\papertype{Thesis/Dissertation} % Chose whether it is a Thesis or a Dissertation
+
+\committee{Perry Alexander}{Member 2}{Member 3}{Member 4}{Member 5}{}{} % List the names of your committee members in the brackets
+
+%\committee{Member 1}{Member 2}{Member 3}{Member 4}{Member 5}{}{} % List the names of your committee members in the brackets
+
+\role{Chair:}{}{}{}{}{}{} % List your chair after the "Chair:", e.g., {Chair: John Doe}
+
+% If you have co-chairs, replace the above line with the following and fill it out accordingly:
+%\role{Co-Chair:}{Co-Chair:}{}{}{}{}{}
+
+\@printd@testrue
+\datedefended{MM DD, YYYY} % This is the date your defended your work
+
+\dateapproved{MM DD, YYYY} % This is the date your work was accepted
+
+\@ifundefined{showcaptionsetup}{}{%
+ \PassOptionsToPackage{caption=false}{subfig}}
+\usepackage{subfig}
+\makeatother
+
+\begin{document}
+
+\maketitle
+
+% The abstract should serve a more organizational purpose. It is a summary of the
+% work that a non-expert should be able to read and parse.
+% [Introduce Area of study]. [Existing work in area].
+% [Introduce work]... [Discuss how it works]... [Discuss results]...
+\begin{abstract}
+
+Formal verification is a useful tool in guaranteeing the security and behavior of programs. This is increasingly true as the amount of LLM generated
+code continues to rise. However even simple projects can be labor intensive to verify, thus verification see's little use in practice. Existing methods
+have either used program synthesis algorithms or LLM's to automate verification. We continue this work with {NotDogTreats} an LLM based proof synthesizer
+for Verus which iteratively attempts to construct proofs utilizing prompts containing relevant information about the problem. This consists of tracking 
+and ranking information in the local context and providing only the relevant information to the LLM. The process then iteratively attempts to solve 
+
+\end{abstract}
+
+\longstyle
+
+\begin{acknowledgements}
+
+This is where you will insert you acknowledgements. Usually in this section, students will mention their thesis/dissertation chair and committee, any research associates, their friends, and their family members. But who you thank is ultimately up to you.
+
+\end{acknowledgements}
+
+\tableofcontents{}
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+
+\printglossary[title=Abbreviations, style=long,nonumberlist, type=\acronymtype]
+
+\include{chapters/ch1}
+\include{chapters/ch2}
+\include{chapters/ch3}
+\include{chapters/ch4}
+\include{chapters/ch5}
+
+% If you need to additional chapters, simply remove the "%" at the start of the necessary lines that follow:
+
+%\include{chapters/ch6}
+%\include{chapters/ch7}
+%\include{chapters/ch8}
+%\include{chapters/ch9}
+%\include{chapters/ch10}
+
+% Make sure that a .tex file for each additional chapter can be found in the "chapters" folder
+
+\printbibliography[title=References,heading=bibintoc]
+
+\appendix
+\include{chapters/AppendixA}
+\include{chapters/AppendixB}
+
+%If you need to additional appendices, simply remove the "%" at the start of the necessary lines that follow:
+
+%\include{chapters/AppendixC}
+%\include{chapters/AppendixD}
+%\include{chapters/AppendixE}
+%\include{chapters/AppendixF}
+%\include{chapters/AppendixG}
+%\include{chapters/AppendixH}
+
+% Make sure that a .tex file for each additional appendix can be found in the "chapters" folder
+
+\end{document}

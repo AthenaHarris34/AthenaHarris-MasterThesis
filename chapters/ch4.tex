@@ -1,0 +1,64 @@
+\chapter{Findings} %This is an example title name
+
+\begin{chapterabstract}
+
+This is where you will insert your chapter abstract, which funcitons as a concise, self-contained summary of your chapter.
+
+%Note that chapter abstracts are not required by KU. If your committee feels like you don't need an abstract for each chapter, simply don't include the \begin{chapterabstract} and \end{chapterabstract} commands in each chapter .tex file.
+
+\end{chapterabstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Name of Subsection}
+Type out the content of your subsection here. Here's another citation \citep{Einstein:1933gu,Tho98w}. What follows is an example table:
+
+\begin{table}[h]
+\caption{Insert table caption here} % title of Table
+\centering % used for centering table
+\begin{tabular}{c c c c c} % centered columns (5 columns)
+\hline\hline %inserts double horizontal lines
+Set & Test 1 & Test 2 & Test 3 & Test 4 \\ [0.5ex] % inserts table
+%heading
+\hline % inserts single horizontal line
+1 & 50 & 34 & 837 & 970 \\ % inserting body of the table
+2 & 47 & 877 & 34 & 230 \\
+3 & 5 & 31 & 25 & 415 \\
+4 & 35 & 27 & 144 & 2356 \\
+5 & 45 & 300 & 556 & 389 \\ [1ex] % [1ex] adds vertical space
+\hline %inserts single line
+\end{tabular}
+\label{table_example_1:nonlin} % is used to refer to this table in the text
+\end{table}
+
+And just to be safe, here is another example of a table:
+
+\begin{table}[h]
+\caption{Insert table caption here} 
+\centering 
+\begin{tabular}{c c c c c c} 
+\hline\hline 
+Experiment & Batch A & Batch B & Batch C & Batch D & Batch E \\ [0.5ex] 
+\hline 
+5 & 7 & 5 & 3 & 7 & 2 \\
+8 & 9 & 8 & 2 & 1 & 9 \\
+3 & 2 & 1 & 9 & 6 & 6 \\
+2 & 2 & 8 & 1 & 4 & 9 \\ [1ex] 
+\hline 
+\end{tabular}
+\label{table_example_2:nonlin}
+\end{table}
+
+%The above table based on the one from "Creating Tables with LaTeX" (https://web.archive.org/web/20090306042457/http://www1.maths.leeds.ac.uk/latex/TableHelp1.pdf)
+
+You can also refer to tables in the text like this: see tables \ref{table_example_1:nonlin} and \ref{table_example_2:nonlin}.
+
+\section{Name of Subsection}
+Here is another example of a chapter subsection. Delete or duplicate as necessary.
+
+\subsection{Name of Third-Level Subsection}
+Here is another example of a third-level subsection. Delete or duplicate as necessary.
+
+\subsubsection{Name of Fourth-Level Subsection}
+Here is another example of a fourth-level subsection. Delete or duplicate as necessary.
