@@ -103,9 +103,11 @@
 
 Formal verification is a useful tool in guaranteeing the security and behavior of programs. This is increasingly true as the amount of LLM generated
 code continues to rise. However even simple projects can be labor intensive to verify, thus verification see's little use in practice. Existing methods
-have either used program synthesis algorithms or LLM's to automate verification. We continue this work with {NotDogTreats} an LLM based proof synthesizer
-for Verus which iteratively attempts to construct proofs utilizing prompts containing relevant information about the problem. This consists of tracking 
-and ranking information in the local context and providing only the relevant information to the LLM. The process then iteratively attempts to solve 
+have either used program synthesis algorithms or LLM's to automate verification. Now applied blindly and on entire proofs, LLM's lack much of the resources
+that programmers are able to utilize and thus are not as effective in writing proofs. We present a method for introducing relevant information from the
+environment to the LLM, while using it to develop each proof iteratively and a tool based off this method called {NotDogTreats}. This consists of tracking 
+and ranking information in the local context and providing only the most relevant information to the LLM. The process then iteratively attempts to solve 
+each part of a proof one step at a time, allowing us to see if we are making progress. [Discuss Evaluation once Evaluated]
 
 \end{abstract}
 

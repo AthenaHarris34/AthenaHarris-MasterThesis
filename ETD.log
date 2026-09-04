@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.8.12)  1 SEP 2026 17:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.8.12)  4 SEP 2026 02:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1001,27 +1001,27 @@ Chapter 1.
 ) [9
 
 
-]
+] [10]
 \openout2 = `chapters/ch2.aux'.
 
  (./chapters/ch2.tex
 Chapter 2.
-<./images//sample-image_PD.png, id=239, 420.82219pt x 451.6875pt>
+<./images//sample-image_PD.png, id=243, 420.82219pt x 451.6875pt>
 File: ./images//sample-image_PD.png Graphic file (type png)
 <use ./images//sample-image_PD.png>
 Package pdftex.def Info: ./images//sample-image_PD.png  used on input line 19.
 (pdftex.def)             Requested size: 210.41057pt x 225.84319pt.
-[10
+[11
 
 
 
 
- <./images//sample-image_PD.png (PNG copy)>]) [11]
+ <./images//sample-image_PD.png (PNG copy)>]) [12]
 \openout2 = `chapters/ch3.aux'.
 
  (./chapters/ch3.tex
 Chapter 3.
-) [12
+) [13
 
 
 
@@ -1031,22 +1031,22 @@ Chapter 3.
 
  (./chapters/ch4.tex
 Chapter 4.
-[13
+[14
 
 
 
 
-]) [14]
+]) [15]
 \openout2 = `chapters/ch5.aux'.
 
  (./chapters/ch5.tex
 Chapter 5.
-) [15
+) [16
 
 
 
 
-] [16
+] [17
 
 
 
@@ -1055,12 +1055,12 @@ Chapter 5.
 
  (./chapters/AppendixA.tex
 Appendix A.
-<./images//sample-image_NMDA.png, id=292, 168.63pt x 111.0549pt>
+<./images//sample-image_NMDA.png, id=296, 168.63pt x 111.0549pt>
 File: ./images//sample-image_NMDA.png Graphic file (type png)
 <use ./images//sample-image_NMDA.png>
 Package pdftex.def Info: ./images//sample-image_NMDA.png  used on input line 8.
 (pdftex.def)             Requested size: 168.62958pt x 111.05461pt.
-) [17
+) [18
 
 
  <./images//sample-image_NMDA.png (PNG copy)>]
@@ -1068,7 +1068,7 @@ Package pdftex.def Info: ./images//sample-image_NMDA.png  used on input line 8.
 
  (./chapters/AppendixB.tex
 Appendix B.
-) [18
+) [19
 
 
 
@@ -1081,18 +1081,18 @@ Package logreq Info: Writing requests to 'ETD.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30434 strings out of 480247
- 547978 string characters out of 5896151
- 1395656 words of memory out of 5000000
+ 30435 strings out of 480247
+ 547985 string characters out of 5896151
+ 1396656 words of memory out of 5000000
  47816 multiletter control sequences out of 15000+600000
  486243 words of font info for 65 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  91i,8n,108p,1157b,5160s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ETD.pdf (18 pages, 278173 bytes).
+Output written on ETD.pdf (19 pages, 279357 bytes).
 PDF statistics:
- 351 PDF objects out of 1000 (max. 8388607)
- 311 compressed objects within 4 object streams
- 68 named destinations out of 1000 (max. 500000)
+ 356 PDF objects out of 1000 (max. 8388607)
+ 315 compressed objects within 4 object streams
+ 69 named destinations out of 1000 (max. 500000)
  291 words of extra memory for PDF output out of 10000 (max. 10000000)
 
