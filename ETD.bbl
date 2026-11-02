@@ -52,55 +52,6 @@
       \verb 10.1002/andp.19053221004
       \endverb
     \endentry
-    \entry{Lit96}{book}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=ae444510770bb34485154c575c6b0c93}{%
-           family={Littell},
-           familyi={L\bibinitperiod},
-           given={Ramon\bibnamedelima C.},
-           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0f51043f4657273965694d634cf7af13}{%
-           family={Milliken},
-           familyi={M\bibinitperiod},
-           given={George\bibnamedelima A.},
-           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=811ca7afe925492048849d1e89ce68d7}{%
-           family={Stroup},
-           familyi={S\bibinitperiod},
-           given={Walter\bibnamedelima W.},
-           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c833749cc152e2ba6591b68b3e3f0a5b}{%
-           family={Wolfinger},
-           familyi={W\bibinitperiod},
-           given={Russell\bibnamedelima D.},
-           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Cary, NC}%
-      }
-      \list{publisher}{1}{%
-        {SAS Institute, Inc.}%
-      }
-      \strng{namehash}{0364057fd26a9bfd453e006374866a37}
-      \strng{fullhash}{19c86fd7fbcac5c44cc49588c5de5803}
-      \strng{bibnamehash}{19c86fd7fbcac5c44cc49588c5de5803}
-      \strng{authorbibnamehash}{19c86fd7fbcac5c44cc49588c5de5803}
-      \strng{authornamehash}{0364057fd26a9bfd453e006374866a37}
-      \strng{authorfullhash}{19c86fd7fbcac5c44cc49588c5de5803}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{SAS} System for Mixed Models}
-      \field{year}{1996}
-    \endentry
     \entry{Met78}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=296b45ce1995399650391e9bc8b09c22}{%
@@ -275,37 +226,6 @@
       \verb{url}
       \verb http://www.forestry.ubc.ca/conservation/power/
       \endverb
-    \endentry
-    \entry{Wel03}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=1156f280222fff0a68b137c9e6e7062c}{%
-           family={Wellek},
-           familyi={W\bibinitperiod},
-           given={Stefan},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {Chapman \& Hall/CRC Press}%
-      }
-      \strng{namehash}{1156f280222fff0a68b137c9e6e7062c}
-      \strng{fullhash}{1156f280222fff0a68b137c9e6e7062c}
-      \strng{bibnamehash}{1156f280222fff0a68b137c9e6e7062c}
-      \strng{authorbibnamehash}{1156f280222fff0a68b137c9e6e7062c}
-      \strng{authornamehash}{1156f280222fff0a68b137c9e6e7062c}
-      \strng{authorfullhash}{1156f280222fff0a68b137c9e6e7062c}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Testing Statistical Hypotheses of Equivalence}
-      \field{year}{2003}
     \endentry
   \enddatalist
 \endrefsection

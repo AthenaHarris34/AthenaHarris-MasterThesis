@@ -21,12 +21,45 @@ Thus one might be interested in guaranteeing correct behavior for these systems.
 methods has seen little use in practical applications as the process is unfamiliar to the typical programmer and time-intensive. [Reference a large formally verified program like C compiler project?]. 
 [Introduce automated proof tools].
 
-[Discuss past work in proof automation, then the rise of LLM based tools]
+[Discuss past work in proof automation, then the rise of LLM based tools] This had led to the development of proof synthesis tools that attempt to automatically generate proofs
 
 [Introduce our work in this field].
+[Setup the problem we seek to address] When utilizing LLM's bluntly to solve an entire proof they either generate a correct solution or a completely wrong solution, in that no part of the proof is partially correct.
+In addition the LLM lacks knowledge of any Lemma's or definitions that have been defined in the local environment
+
+[This method works best for theorem provers with underlying SAT solvers that attempt to solve the proof state]
 
 Type out the content of your subsection here. What follows is an example APA 7th citation \citep{Met78}. Note also \citet{Met78b} but \citet{Met78c}. You can adjust citational information by editing the allcites.bib file, included in this package.
 
-\section{Background?}
-Discuss formal methods and proof synthesis. What someone might need to know to understand this paper, How did the field develop to where we are today, and 
-the significance of the field.
+\section{Background}
+%[Discuss formal methods and proof synthesis. What someone might need to know to understand this paper, How did the field develop to where we are today, and 
+%the significance of the field]
+%[Start with the broader context of the topic and move towards the specifics relevant to our work]
+%[The context should describe what this topic is: Why its used, how its used, what is it ]
+The behavior of a program in an ideal world conforms exactly to the specification defined by the programmer. However whether due to mistakes, side effects, or the [scale of a project growing too large] this is rarely the case. 
+Thus we might look for ways to make guarantees about a program; this is where formal methods arises. We are able to build rigorous statements about a system from the specifications that allow us to make guarantees [Specific kind?]
+about its behavior. Rigorous in this context means that there are formal rules for constructing new statements, this means any conclusions we make from the specification hold true [Stronger word for true? Sound]. 
+
+There are two typical approach's taken to formal methods problems, either model checking or theorem proving. Model Checking is an automated procedure that attempts to search the entire state space of a system to verify a specification.
+The method is limited to finite systems and even then is prone to state-space explosion where the computational requirements grow exponentially with the size of the system making it infeasible on larger systems. Theorem proving on the
+other hand is more expressive as verification relies on constructing a proof that a property holds for the given system. This means we can use our techniques for reasoning with unbounded objects to prove properties about infinite state systems.
+However, this is reliant on the programmer being able to construct said proof, and while there do exist tools such as proof assistants like [list proof assistants; Rocq], the construction remains labor-intensive.
+
+Verus is an SMT-based theorem prover specifically for the Rust programming language. It is built on top of Rust so that it is able to utilize the programming languages linear type system in order to make the SMT-based verification easier.
+The goal of Verus is to extend the amount of safe code it is possible to write in Rust. The linear type system that Rust is built to support is incredible at keeping code memory safe without any additional runtime overhead. However this 
+does limit the expressivity of the language as certain structures will violate the linearity demanded by the type system. Verus then allows programmers to verify code that Rust would find unsafe, or other functional properties that could
+prevent bugs.
+
+It is important to note that the cost of formal verification is typically too high to make it feasible for use in typical programs [Find a paper for this]. Thus there has been an increased interest in the automation of theorem proving
+methods in order to make formal verification more viable. In particular with the rise of large language models (LLM's) many tools seek to utilize their ability to generate code to solve proofs. Indeed the use of LLM's for proof 
+generation manages to avoid some of the problems that arise when LLM's are used for code generation; namely the amount of technical debt, that is bugs or a lack of scalability, that LLM's introduce into a program. Since the content
+of a proof is insignificant as long as it is solved, we can effectively ignore its "quality" meaning we can dismiss any concerns about technical debt.
+
+[Alt Paragraph] 
+It is important to note that the cost of formal verification is typically too high to make it feasible for use in typical programs [Find a paper for this]. Thus there has been an increased interest in the automation of theorem proving
+methods in order to make formal verification more viable. Now the rise of Large Language Models has provided a unique tool that appears to be particularly suited for proof generation. Large Language Models, or LLM's, are complex AI models 
+trained on large sets of text data combined with the ability to consider large amounts of input. This has resulted in LLM's being capable of generating human sounding text or, more relevant for us, functional code. However the use of 
+LLM's for code generation incurs a greater amount of technical debt than the typical developer. This is where we find it particularly useful for proof generation as a theorem is agnostic to the content of a proof, only caring if the proof
+holds or not, this means that any output from an LLM used in the proof will have no effect on any code outside the proof.
+
+[Need information about LLM prompts; large prompts effecting results]

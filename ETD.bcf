@@ -2797,19 +2797,14 @@
     <bcf:citekey order="4">Met78c</bcf:citekey>
     <bcf:citekey order="5">Met78c</bcf:citekey>
     <bcf:citekey order="6">Einstein:1933gu</bcf:citekey>
-    <bcf:citekey order="7">Lit96</bcf:citekey>
-    <bcf:citekey order="7">Wel03</bcf:citekey>
-    <bcf:citekey order="7">Met78</bcf:citekey>
-    <bcf:citekey order="8">Einstein:1933gu</bcf:citekey>
-    <bcf:citekey order="8">Tho98w</bcf:citekey>
+    <bcf:citekey order="7">Einstein:1933gu</bcf:citekey>
+    <bcf:citekey order="7">Tho98w</bcf:citekey>
+    <bcf:citekey order="8">Met78</bcf:citekey>
     <bcf:citekey order="9">Met78</bcf:citekey>
-    <bcf:citekey order="10">Met78</bcf:citekey>
-    <bcf:citekey order="11">Met78b</bcf:citekey>
-    <bcf:citekey order="12">Met78c</bcf:citekey>
-    <bcf:citekey order="13">Einstein:1933gu</bcf:citekey>
-    <bcf:citekey order="14">Lit96</bcf:citekey>
-    <bcf:citekey order="15">Wel03</bcf:citekey>
-    <bcf:citekey order="16">Tho98w</bcf:citekey>
+    <bcf:citekey order="10">Met78b</bcf:citekey>
+    <bcf:citekey order="11">Met78c</bcf:citekey>
+    <bcf:citekey order="12">Einstein:1933gu</bcf:citekey>
+    <bcf:citekey order="13">Tho98w</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

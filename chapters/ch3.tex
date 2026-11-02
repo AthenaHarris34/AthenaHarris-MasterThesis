@@ -10,20 +10,36 @@ This is where you will insert your chapter abstract, which funcitons as a concis
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% A section discussing the framework; i.e. the structure and
+% flow of Dog treats
+% A section discussing our application to Rust and Verus
+% A section discussing how the dataset was found and constructed
+% A Section the choice and use of LLM models
 
-\section{Name of Subsection}
-Type out the content of your subsection here. Here's another citation example \citep{Lit96,Wel03,Met78}. And here is an example equation:
 
-\begin{equation}
-    \label{eq:iceberg_draft_estimate}
-    D = 2.91L{^{0.71}}
-\end{equation}
+\section{DogTreats Framework}
+% Summarize the purpose of dogtreats, the idea behind
+Dogtreats is a method for effectively utilizing LLM's to generate the content of a proof, in order to automate part of the theorem proving process. However using LLM's alone to synthesize a full proof 
+means that we could fail to reference objects in the local context that are either necessary or helpful for solving the proof. Furthermore in the case of failure diagnosing why the proof failed or
+finding a partial solution from the provided proof can be difficult. Thus our method categorizes and ranks existing local information by relevance to provide to the LLM, and then attempts to iteratively
+add and test single statements to the proof effectively constructing a partial solution at each step. The full process is given as follows: [How to transition into the full description?]
 
-\section{Name of Subsection}
+\subsection{Knowledge Graph Generation}
+A knowledge graph for our purposes is a graph structure that relates an object $O_1$ to an object $O_2$ 
+
+[Would a mathematical model of a knowledge graph be of benefit here]
+
+\subsection{Error Tracking}
+
+\subsection{Prompt Generation}
+
+\subsection{Repair Attempt}
+
+\section{Application to Verus}
 Here is another example of a chapter subsection. Delete or duplicate as necessary.
 
-\subsection{Name of Third-Level Subsection}
+\subsection{Selecting a Large Language Model}
 Here is another example of a third-level subsection. Delete or duplicate as necessary.
 
-\subsubsection{Name of Fourth-Level Subsection}
+\subsubsection{Dataset Construction}
 Here is another example of a fourth-level subsection. Delete or duplicate as necessary.
